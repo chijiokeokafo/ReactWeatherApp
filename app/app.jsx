@@ -9,6 +9,9 @@ var Examples = require('Examples');
 var WeatherForm = require('WeatherForm');
 var WeatherMessage = require('WeatherMessage');
 
+//Load foundation
+require('style-loader!css-loader!foundation-sites/dist/foundation.min.css');
+$(document).foundation();
 
 ReactDOM.render(
 	<Router history={hashHistory}>
